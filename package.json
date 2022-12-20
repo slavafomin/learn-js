@@ -1,0 +1,13 @@
+{
+  "name": "skytest",
+  "version": "0.0.0",
+  "description": "Example",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": [
+    "example",
+    "test"
+  ],
+  "private": true
+}
