@@ -1,0 +1,19 @@
+{
+  "foo": "hello",
+  "bar": 117,
+  "baz": true,
+  "cart": [
+    {
+      "product": "Pineapple",
+      "count": 10
+    },
+    {
+      "product": "Oranges",
+      "count": 1
+    },
+    {
+      "product": "Apples",
+      "count": 3
+    }
+  ]
+}
