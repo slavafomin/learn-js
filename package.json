@@ -4,6 +4,7 @@
   "description": "Example",
   "main": "index.js",
   "scripts": {
+    "build": ":"
   },
   "keywords": [
     "example",
