@@ -9,3 +9,11 @@ for (const value of numbers) {
 }
 
 console.log(sum);
+
+
+/**
+ * BAD: DO NOT USE
+ */
+numbers.forEach(value => {
+  sum += value;
+});
