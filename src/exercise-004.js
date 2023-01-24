@@ -64,6 +64,7 @@ function exercise4(actions) {
     if (action === 'wait') {
       // Value is a number of seconds here
       time += value;
+      writeLog();
       continue;
     }
 
