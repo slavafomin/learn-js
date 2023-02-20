@@ -42,11 +42,7 @@ for (const row of matrix1) {
 
   for (let c = 0; c < colsLength; c++) {
 
-    const column = [];
-
-    for (let r = 0; r < matrix2.length; r++) {
-      column.push(matrix2[r][c]);
-    }
+    const column = getColumn(matrix2, c);
 
     resultRow.push(multiplyVectors(row, column));
 
@@ -57,6 +53,19 @@ for (const row of matrix1) {
 }
 
 resultMatrix.forEach(row => console.log(row));
+
+
+/**
+ * @param {number[][]} matrix
+ * @param {number} columnIndex
+ */
+function getColumn(matrix, columnIndex) {
+  const column = [];
+  for (let i = 0; i < matrix.length; i++) {
+    column.push(matrix[i][columnIndex]);
+  }
+  return column;
+}
 
 
 /**
